@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #60e99e;
+}
+
+main {
+    background-color: #ffffff;
+    max-width: 800px;
+    min-width: 300px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 1px 1px 1px #0000004b;
+}
+
+
+p {
+    text-indent: 2em;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #39ce7c, #155933);
+    color: #ffffff;
+    height: 200px;
+    text-align: center;
+}
+
+header > h1 {
+    padding: 30px;
+    text-shadow: 1px 1px 1px #0000008a;
+}
+
+header > p {
+    text-shadow: 1px 1px 1px #0000008a;
+}
+
+nav {
+    background-color: #155933;   
+}
+
+nav > a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+}
+
+nav > a:hover {
+    background-color: #ffffff36;
+    color: #000000;
+}
+
+main > h1 {
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+}
+
+main > h2 {
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    background-color: #41d18249;
+}
+
+main > p {
+    padding: 15px 0;
+}
+
+main img {
+    width: 70%;
+    margin: auto;
+}
+
+.imagem {
+    display: block;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #219957;
+}
+
+strong {
+    color: #219957;
+}
+
+.link::after {
+    content: '🔗';
+}
+
+#video {
+    text-align: center;
+    background-color: #1f4e34;
+    border-radius: 0px;
+}
+
+div {
+    padding: 10px;
+    margin: 10px;
+    background-color: #60e99e6b;
+    border-radius: 20px;
+}
+
+div > h3 {
+    padding: 10px;
+    background-color: #34c576;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+div > ul > li > a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #136938;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 10px;
+}
